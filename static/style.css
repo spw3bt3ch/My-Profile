@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/static/images/reflection-from-laptop-glasses-dark-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-container #navbar{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    margin: 0px auto;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+#nav-container #navbar #social-icons{
+    display: flex;
+}
+#nav-container #navbar #social-icons .social a{
+    text-decoration: none;
+}
+#nav-container #navbar #social-icons .social:hover{
+    box-shadow: 0px 0px 10px #ffbf00;
+}
+#nav-container #navbar #social-icons .social a img{
+    width: 100%;
+}
+#nav-container #navbar #social-icons .social{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#nav-container #navbar ul{
+    display: flex;
+    /* margin: 0px auto; */
+}
+#nav-container #navbar ul li{
+    margin: 10px;
+    list-style: none;
+}
+#nav-container #navbar ul li a{
+    text-decoration: none;
+    color: #ffdd00;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+#nav-container #navbar ul li a:hover{
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px whitesmoke;
+    animation: ease-in-out;
+}
+#nav-container #navbar ul li:last-child a{
+    background-color: #d30000;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+#nav-container #navbar ul li:last-child a:hover{
+    background-color: #ff0000;
+    box-shadow: 0px 0px 10px #ff0000;
+}
+#about-text #about-text-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 20px 20px;
+}
+#about-text #about-text-main h1, p{
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 0px 0px 5px black;
+}
+#about-text #about-text-main h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#about-text #about-text-main p{
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(198, 198, 198);
+}
+#about-text #about-text-main h1 span{
+    color: #ffbf00;
+    text-shadow: 0px 0px 10px #ffbf00;
+}
+#main-container #container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 95%;
+    height: auto;
+    padding: 50px 10px;
+}
+#container #about-image img{
+    width: 500px;
+}
+#about-text{
+    display: flex;
+    flex-direction: column;
+}
+#about-text #ctas{
+    margin: 10px 10px 50px 10px;
+}
+#about-text #ctas a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border: 1px solid #ffbf00;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+#about-text #ctas #cta1{
+    background-color: #ffbf00;
+    color: black;
+}
+#about-text #ctas a:hover{
+    box-shadow: 0px 0px 10px #ffbf00;
+    animation: ease-in-out;
+}
+#main-container #metrics{
+    width: 90%;
+    height: 400px;
+    background-color: rgb(17, 17, 17);
+    background-image: url('/static/images/6057485.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 20px;
+    margin: 25px auto ;
+    box-shadow: 0px 0px 10px #d30000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-container #metrics #m-head{
+    color: whitesmoke;
+    margin: -30px auto 30px;
+}
+#main-container #metrics #m-head h1{
+    font-size: 30px;
+}
+#main-container #metrics #m-highlights{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px;
+    justify-items: center;
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+#main-container #metrics #m-highlights .hl{
+    width: 95%;
+    height: 120px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
+#main-container #metrics #m-highlights .hl a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f7f7f7;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin: 20px;
+    background-color:#d30000;
+    box-shadow: 0px 0px 5px black;
+}
+#main-container #metrics #m-highlights .card1{
+    background-image: url('/static/images/ChatGPT\ Image\ Jul\ 8\,\ 2025\,\ 07_02_01\ AM.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out .2s;
+}
+#main-container #metrics #m-highlights .card2{
+    background-image: url('/static/images/html-css-collage-concept-with-person.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out .2s;
+}
+#main-container #metrics #m-highlights .card3{
+    background-image: url('/static/images/ancient-greece-fighter-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out .2s;
+}
+#main-container #metrics #m-highlights .card4{
+    background-image: url('/static/images/man-wearing-vr-headset.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out .2s;
+}
+#main-container #metrics #m-highlights .card4:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+#main-container #metrics #m-highlights .card3:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+#main-container #metrics #m-highlights .card2:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+#main-container #metrics #m-highlights .card1:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+#main-container footer{
+    width: 100%;
+    background-color: black;
+    height: auto;
+    padding: 10px;
+}
+#main-container footer p{
+    text-align: center;
+    font-size: 14px;
+    color: #ffbf00;
+    margin: 10px;
+}
+
+#lifestyle-container h1{
+    font-size: 30px;
+    color: #4d4d4d;
+}

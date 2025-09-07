@@ -1,0 +1,126 @@
+/* Tablets (max-width 768px) */
+@media (max-width: 1103px) {
+  #nav-container #navbar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+        margin: 5px auto;
+    }
+    #nav-container #navbar #social-icons{
+        display: flex;
+        margin: 5px;
+        padding: 4px 100px;
+        border-radius: 5px;
+        border: 2px solid #ffbf00;
+    }
+    #main-container #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+        padding: 50px 10px;
+    }
+    #about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+    #about-text #about-text-main h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #about-text #about-text-main p{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 560px) {
+    body{
+        box-sizing: border-box;
+        background-image: url('/static/images/reflection-from-laptop-glasses-dark-background.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* width: 100%; */
+    }
+  #about-text #ctas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px auto;  
+    }
+    #about-text #ctas a{
+        text-align: center;
+    }
+    #nav-container #navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #about-text{
+        margin-top: 70px;
+        height: auto;
+    }
+    #nav-container #navbar{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 20px;
+        position: fixed;
+        margin: 0px auto;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+    #nav-container #navbar ul li{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+        #nav-container #navbar ul li:last-child{
+        margin-bottom: 20px;
+    }
+    #main-container #metrics{
+        width: 90%;
+        height: auto;
+        padding: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #main-container #metrics #m-highlights{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px auto;
+        width: 95%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #main-container #metrics #m-highlights .hl{
+        width: 95%;
+        height: 120px;
+        background-color: rgb(80, 80, 80);
+        border-radius: 10px;
+        border: 2px solid whitesmoke;
+        margin: 10px;
+    }
+}
