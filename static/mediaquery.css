@@ -123,4 +123,11 @@
         border: 2px solid whitesmoke;
         margin: 10px;
     }
+    #nav-container #navbar #social-icons{
+          padding: 4px 60px;
+    }
+    #container #about-image img{
+        width: 350px;
+    }
 }
+
