@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/mediaquery.css">
     <link rel="shortcut icon" href="/static/images/icons/Layer 2.png" type="image/x-icon">
+    <script src="/static/script.js" defer></script>
 </head>
 <body>
     <div id="nav-container">
         <div id="navbar">
-            <ul>
+            <!-- Hamburger Menu Icon -->
+            <div id="hamburger-menu" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <ul id="nav-menu">
                 <!-- <li><a href="#">About me</a></li> -->
                 <li><a href='{{url_for("about_me")}}' title="Home Page">About Me</a></li>
-                <li><a href="https://bit.ly/CodeYourFirstWebsite" target="_blank">Ongoing Bootcamp</a></li>
+                <li><a href="https://bit.ly/CodeYourFirstWebsite" target="_blank">Upcoming Bootcamp</a></li>
+                <!-- <li><a href='{{url_for("resume")}}' target="_blank">Past Bootcamps</a></li> -->
                 <li><a href="http://wa.me//+2347077705842" target="_blank">Contact Me</a></li>
             </ul>
             <div id="social-icons">
